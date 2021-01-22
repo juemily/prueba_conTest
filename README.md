@@ -2,7 +2,7 @@
 
 peticiones :
 
-http://localhost:8080/prueba/getAll trae todas las listas creadas en la H2
+http://localhost:8080/prueba/getAll trae todas las listas creadas en la  DB creada en memoria con H2
 
 http://localhost:8080/prueba/addProduct Inserta producto.
 

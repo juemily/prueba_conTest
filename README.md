@@ -1,6 +1,6 @@
 # prueba_conTest
 
-se debe realizar un mvn clean install para instalar las librerias del proyecto.
+se debe realizar un ```mvn clean install ``` para instalar las librerias del proyecto.
 
 ### Endpoints
 

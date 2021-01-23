@@ -1,14 +1,25 @@
 # prueba_conTest
 
-peticiones :
+se debe realizar un mvn clean install para instalar las librerias del proyecto.
 
-http://localhost:8080/prueba/getAll trae todas las listas creadas en la  DB creada en memoria con H2
+### Endpoints
 
-http://localhost:8080/prueba/addProduct Inserta producto.
+# prueba_conTest
 
 
-ejemplo body  para metodo POST http://localhost:8080/prueba/addProduct
 
+
+se debe realizar un ```mvn clean install``` para instalar las librerias del proyecto.
+### Endpoints
+
+
+| Method | URL | Path | Body|
+| ------ | ------ | ------ | ------ |
+| GET | [http://localhost:8080/prueba] |[getAll] | NO
+| POST | [http://localhost:8080/prueba] | [addProduct] | SI
+
+ejempplo de body methodo POST
+```
 {
     "sku": 2223223,
     "name": "ffsdfsd",
@@ -18,4 +29,7 @@ ejemplo body  para metodo POST http://localhost:8080/prueba/addProduct
     "principalImage": "https://fsdfsdfsdfsdf",
     "otherImages": "fsdfsdfsdf"
 }
+```
+
+
 
